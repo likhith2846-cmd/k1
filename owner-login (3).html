@@ -72,7 +72,7 @@ aside{
   min-height:86px;padding:14px 14px 10px;border-bottom:1px solid rgba(255,255,255,.06);
   display:flex;align-items:center;justify-content:center;
 }
-.brand-logo-img{width:100%;max-width:170px;height:auto;display:block;object-fit:contain;border-radius:8px}
+.karnet-broadband-logo.jpg{width:100%;max-width:170px;height:auto;display:block;object-fit:contain;border-radius:8px}
 .nav{padding:12px 0;display:grid;gap:2px}
 .nav:before{
   content:"CONTENT MANAGEMENT";display:block;color:#58687c;font-size:9px;
@@ -224,7 +224,7 @@ th{color:#7a8797;text-transform:uppercase;letter-spacing:.06em;font-size:10px;ba
 .upload-progress{height:7px;background:#07101c;border-radius:999px;overflow:hidden;margin-top:10px;display:none}.upload-progress>span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--teal2),var(--teal));transition:width .2s}
 </style></head><body>
 <div id="login"><div class="login-card"><div class="brand"><img class="login-logo-img" src="karnet-broadband-logo.jpg" alt="KarNet Broadband"></div><h1>Owner Login</h1><p class="sub">Secure access to KarNet website management.</p><div class="field"><label>Owner Email</label><input id="email" type="email" placeholder="Owner email"></div><div class="field"><label>Password</label><input id="password" type="password" placeholder="••••••••" onkeydown="if(event.key==='Enter')loginOwner()"></div><div id="loginError" class="hidden"></div><button class="btn primary full" onclick="loginOwner()">Log In <span>→</span></button></div></div>
-<div id="app"><aside><div class="side-brand"><img class="brand-logo-img" src="karnet-broadband-logo.jpg" alt="KarNet Broadband"></div><div class="nav" id="nav"></div><div class="side-bottom"><button class="btn ghost full" onclick="logoutOwner()">Log Out</button></div></aside><main><header><div><b id="pageTitle">Dashboard</b><div class="muted">Synced with customer site</div></div><div class="header-actions">
+<div id="app"><aside><div class="side-brand"><img class="karnet-broadband-logo.jpg" src="karnet-broadband-logo.jpg" alt="KarNet Broadband"></div><div class="nav" id="nav"></div><div class="side-bottom"><button class="btn ghost full" onclick="logoutOwner()">Log Out</button></div></aside><main><header><div><b id="pageTitle">Dashboard</b><div class="muted">Synced with customer site</div></div><div class="header-actions">
 <div class="notif-wrap">
   <button class="notif-btn" id="notifBtn" type="button" onclick="toggleNotifications(event)" aria-label="New website enquiries">
     <i data-lucide="bell" style="width:18px"></i>
